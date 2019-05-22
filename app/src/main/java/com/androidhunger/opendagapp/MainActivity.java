@@ -28,8 +28,14 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         ImageButton g = findViewById(R.id.Googlemaps1);
-        ImageButton g = findViewById(R.id.Googlemaps2);
-        g.setOnClickListener(new View.onClickListener() {
+        ImageButton p = findViewById(R.id.Googlemaps2);
+        p.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,Pop.class));
+            }
+        });
+        g.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this,Pop.class));

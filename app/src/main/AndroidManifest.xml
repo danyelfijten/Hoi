@@ -36,9 +36,9 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Pop"
-            android:theme="@style/AppTheme.CustomTheme"
-            ></activity>
+        <activity
+            android:name="com.androidhunger.opendagapp.Pop"
+            android:theme="@style/AppTheme.CustomTheme" />
     </application>
 
 </manifest>
