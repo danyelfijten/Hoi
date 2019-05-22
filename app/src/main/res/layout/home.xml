@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="2pt"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/background1"
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="165dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Informatica&#xA;&#xA;Wijnhaven 107&#xA;&#xA;Vrijdag 19 April 2020"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/background1"
+        app:layout_constraintEnd_toEndOf="@+id/background1"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toEndOf="@+id/image1"
+        app:layout_constraintTop_toTopOf="@+id/background1"
+        app:layout_constraintVertical_bias="0.369" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="91dp"
+        android:layout_height="97dp"
+        android:src="@drawable/circle"
+        android:background="#00000000"
+        app:layout_constraintBottom_toBottomOf="@+id/background1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="@+id/background1"
+        app:layout_constraintTop_toTopOf="@+id/background1"
+        app:layout_constraintVertical_bias="0.509" />
+
+    <ImageButton
+        android:id="@+id/opendaginfo1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#00ffffff"
+        android:onClick="goToInformatica"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_info_outline_black_24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/background1"
+        app:layout_constraintEnd_toEndOf="@+id/background1"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toEndOf="@+id/image1"
+        app:layout_constraintTop_toTopOf="@+id/background1"
+        app:layout_constraintVertical_bias="0.184" />
+
+    <ImageButton
+        android:id="@+id/opendagshare1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#00ffffff"
+        android:onClick="share1"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_share_black_24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/background1"
+        app:layout_constraintEnd_toEndOf="@+id/background1"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toEndOf="@+id/image1"
+        app:layout_constraintTop_toBottomOf="@+id/opendaginfo1"
+        app:layout_constraintVertical_bias="0.357" />
+
+    <TextView
+        android:id="@+id/background2"
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/background1" />
+
+    <TextView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="132sp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#CC0133"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/background2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/background3"
+        android:layout_width="match_parent"
+        android:layout_height="132sp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/background"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="91dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/circle"
+        app:layout_constraintBottom_toBottomOf="@+id/background2"
+        app:layout_constraintEnd_toEndOf="@+id/background2"
+        app:layout_constraintHorizontal_bias="0.024"
+        app:layout_constraintStart_toStartOf="@+id/background2"
+        app:layout_constraintTop_toTopOf="@+id/background2"
+        app:layout_constraintVertical_bias="0.566" />
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="91dp"
+        android:layout_height="97dp"
+        android:src="@drawable/circle"
+        app:layout_constraintBottom_toBottomOf="@+id/background"
+        app:layout_constraintEnd_toEndOf="@+id/background"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="@+id/background"
+        app:layout_constraintTop_toTopOf="@+id/background"
+        app:layout_constraintVertical_bias="0.471" />
+
+    <ImageView
+        android:id="@+id/image4"
+        android:layout_width="91dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/circle"
+        app:layout_constraintBottom_toBottomOf="@+id/background3"
+        app:layout_constraintEnd_toEndOf="@+id/background3"
+        app:layout_constraintHorizontal_bias="0.024"
+        app:layout_constraintStart_toStartOf="@+id/background3"
+        app:layout_constraintTop_toTopOf="@+id/background3"
+        app:layout_constraintVertical_bias="0.547" />
+
+    <ImageButton
+        android:id="@+id/opendaginfo2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#00ffffff"
+        android:onClick="goToTechnischeInformatica"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_info_outline_black_24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/background2"
+        app:layout_constraintEnd_toEndOf="@+id/background2"
+        app:layout_constraintHorizontal_bias="0.958"
+        app:layout_constraintStart_toStartOf="@+id/background2"
+        app:layout_constraintTop_toTopOf="@+id/background2"
+        app:layout_constraintVertical_bias="0.217" />
+
+    <ImageButton
+        android:id="@+id/opendaginfo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#00ffffff"
+        android:onClick="goToCommunicatie"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_info_outline_black_24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/background"
+        app:layout_constraintEnd_toEndOf="@+id/background"
+        app:layout_constraintHorizontal_bias="0.958"
+        app:layout_constraintStart_toStartOf="@+id/background"
+        app:layout_constraintTop_toTopOf="@+id/background"
+        app:layout_constraintVertical_bias="0.184" />
+
+    <ImageButton
+        android:id="@+id/opendaginfo3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="#00ffffff"
+        android:onClick="goToCMGT"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_info_outline_black_24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/background3"
+        app:layout_constraintEnd_toEndOf="@+id/background3"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="@+id/background3"
+        app:layout_constraintTop_toTopOf="@+id/background3"
+        app:layout_constraintVertical_bias="0.228" />
+
+    <ImageButton
+        android:id="@+id/opendagshare2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#00ffffff"
+        android:onClick="share3"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_share_black_24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/background2"
+        app:layout_constraintEnd_toEndOf="@+id/background2"
+        app:layout_constraintHorizontal_bias="0.958"
+        app:layout_constraintStart_toStartOf="@+id/background2"
+        app:layout_constraintTop_toBottomOf="@+id/opendaginfo2"
+        app:layout_constraintVertical_bias="0.375" />
+
+
+    <ImageButton
+        android:id="@+id/opendagshare"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:background="#00ffffff"
+        android:onClick="share5"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_share_black_24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/background"
+        app:layout_constraintEnd_toEndOf="@+id/background"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="@+id/background"
+        app:layout_constraintTop_toBottomOf="@+id/opendaginfo"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <ImageButton
+        android:id="@+id/opendagshare3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:background="#00ffffff"
+        android:onClick="share7"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_share_black_24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/background3"
+        app:layout_constraintEnd_toEndOf="@+id/background3"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="@+id/background3"
+        app:layout_constraintTop_toBottomOf="@+id/opendaginfo3"
+        app:layout_constraintVertical_bias="0.36" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="165dp"
+        android:layout_height="86dp"
+        android:text="Technische Informatica&#xA;&#xA;Wijnhaven 107&#xA;&#xA;Vrijdag 17 April 2020"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/background2"
+        app:layout_constraintEnd_toEndOf="@+id/background2"
+        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintStart_toStartOf="@+id/background2"
+        app:layout_constraintTop_toTopOf="@+id/background2"
+        app:layout_constraintVertical_bias="0.434" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="165dp"
+        android:layout_height="86dp"
+        android:text="Communicatie&#xA;&#xA;Wijnhaven 107&#xA;&#xA;Vrijdag 19 April 2020"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/background"
+        app:layout_constraintEnd_toEndOf="@+id/background"
+        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintStart_toStartOf="@+id/background"
+        app:layout_constraintTop_toTopOf="@+id/background"
+        app:layout_constraintVertical_bias="0.369" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="165dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="Creative Media and Game Technologies&#xA;&#xA;Wijnhaven 107&#xA;&#xA;Maandag 6 Januari 2020"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/background3"
+        app:layout_constraintEnd_toEndOf="@+id/background3"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="@+id/background3"
+        app:layout_constraintTop_toTopOf="@+id/background3"
+        app:layout_constraintVertical_bias="0.578" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/background1"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Button
+            android:id="@+id/btnTemp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dip"
+            android:background="@color/colorPrimary"
+            android:padding="2dip"
+            android:text="Contact"
+            android:textColor="#FFF" />
+
+        <Button
+            android:id="@+id/btnOpendagen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dip"
+            android:background="@color/colorPrimary"
+            android:padding="2dip"
+            android:text="Open dagen"
+            android:textColor="#FFF" />
+
+        <Button
+            android:id="@+id/btnStudies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dip"
+            android:background="@color/colorPrimary"
+            android:padding="2dip"
+            android:text="@string/studies"
+            android:textColor="#FFF" />
+
+        <Button
+            android:id="@+id/btnOverHR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dip"
+            android:background="@color/colorPrimary"
+            android:padding="2dip"
+            android:text="Over HR"
+            android:textColor="#FFF" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

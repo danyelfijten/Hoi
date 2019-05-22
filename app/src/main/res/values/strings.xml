@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Open dag app</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_secondpage">secondpage</string>
+    <string name="share_this">Share this</string>
+    <string name="next_page">next page</string>
+    <string name="to">To</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+    <string name="daanneek_gmail_com">blank@gmail.com</string>
+    <string name="subjectactual">Onderwerp </string>
+    <string name="questionactual">Vragen en/of opmerkingen</string>
+    <string name="second_page">Second page</string>
+    <string name="third_page">third page</string>
+    <string name="question_form">Question form</string>
+    <string name="third_activity">Third activity</string>
+    <string name="importr">Import</string>
+    <string name="gallery">Gallery</string>
+    <string name="slideshow">Slideshow</string>
+    <string name="tools">Tools</string>
+    <string name="studies">Studies</string>
+    <string name="upper_banner">Upper banner</string>
+    <string name="informatica">Informatica</string>
+    <string name="technische_informatica">Technische Informatica</string>
+    <string name="communication_and_multimedia_design">Communication and Multimedia Design</string>
+    <string name="creative_media_and_game_design">Creative Media and Game Design</string>
+    <string name="communicatie">Communicatie</string>
+    <string name="title_activity_informaticainfo">informaticainfo</string>
+    <string name="title_activity_technischeinfo">technischeinfo</string>
+    <string name="title_activity_communicatie">communicatie</string>
+    <string name="title_activity_cmgt">CMGT</string>
+    <string name="title_activity_cmd">CMD</string>
+    <string name="TI">Technische Informatica</string>
+    <string name="I">Informatica</string>
+    <string name="CMGT">Creative Media and Game Technologies</string>
+    <string name="CMD">Communication and Multimedia Design</string>
+    <string name="C">Communicatie</string>
+    <string name="questionform">Questionform</string>
+    <string name="home">Home</string>
+    <string name="contactform">Contactform</string>
+    <string name="open_dagen">Open dagen</string>
+    <string name="contact">Contact</string>
+    <string name="over_hr">Over HR</string>
+    <string name="opkomende_open_dagen">Opkomende open dagen</string>
+    <string name="c">Communicatie</string>
+
+
+</resources>

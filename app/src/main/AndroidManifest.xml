@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.androidhunger.navigationdrawerexample">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/transparant"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.androidhunger.opendagapp.Splashscreen"
+            android:noHistory="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"><intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
+        <activity android:name="com.androidhunger.opendagapp.i"
+            android:label="@string/I"/>
+        <activity android:name="com.androidhunger.opendagapp.CMGT"
+            android:label="@string/CMGT"/>
+        <activity android:name="com.androidhunger.opendagapp.CMD"
+            android:label="@string/CMD"/>
+        <activity android:name="com.androidhunger.opendagapp.C"
+            android:label="@string/c"/>
+        <activity android:name="com.androidhunger.opendagapp.ti"
+            android:label="@string/TI"/>
+        <activity
+            android:name="com.androidhunger.opendagapp.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Pop"
+            android:theme="@style/AppTheme.CustomTheme"
+            ></activity>
+    </application>
+
+</manifest>

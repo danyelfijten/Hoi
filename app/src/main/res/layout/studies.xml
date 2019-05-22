@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/I"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/buttonshape"
+        android:onClick="goToInformatica"
+        android:paddingLeft="130sp"
+        android:paddingRight="130sp"
+        android:text="@string/informatica"
+
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/TI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/I"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/buttonshape"
+        android:onClick="goToTechnischeInformatica"
+        android:paddingLeft="85sp"
+        android:paddingRight="85sp"
+        android:text="@string/technische_informatica"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TI"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/buttonshape"
+        android:onClick="goToCommunicatie"
+        android:paddingLeft="123sp"
+        android:paddingRight="123sp"
+        android:text="@string/communicatie"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/CMGT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/C"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/buttonshape"
+        android:onClick="goToCMGT"
+        android:paddingLeft="56sp"
+        android:paddingRight="56sp"
+        android:text="@string/creative_media_and_game_design"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/CMD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CMGT"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/buttonshape"
+        android:onClick="goToCMD"
+        android:paddingLeft="30sp"
+        android:paddingRight="30sp"
+        android:text="@string/communication_and_multimedia_design"
+        android:textColor="#ffffff" />
+</RelativeLayout>
